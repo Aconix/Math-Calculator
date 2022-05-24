@@ -34,4 +34,4 @@ This program has been properly tested to work with whole measurements, 1 to 20. 
 Debug information can be accessed through the console by opening the debug version of the software found in the corrosponding folder, or by changing the extension from .pyw into .py.
 
 ## License
-© 2020 [Aconix](https://www.github.com/Aconix/) All Rights Reserved
+© 2022 [Aconix](https://www.github.com/Aconix/) All Rights Reserved
