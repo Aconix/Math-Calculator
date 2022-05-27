@@ -1,5 +1,5 @@
 # Math Calculator
-# v1.4.0
+# v1.4.1
 # Aconix (c) 2022
 
 from tkinter import *
@@ -8,7 +8,7 @@ import sys
 import numpy
 from decimal import Decimal
 
-version_number = '1.4.0'
+version_number = '1.4.1'
 
 print("Math Calculator\nAconix (c) 2022\nGoing into the mainframe ;)")
 print("")
