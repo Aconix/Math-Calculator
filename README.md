@@ -6,7 +6,7 @@ Math Calculator is a program that is designed to make it easier to calculate the
 
 ## Installation
 
-This program was developed with python 3.8.6. It should work on other versions, but reliability is guaranteed on python 3.8.6.
+This program was developed with Python 3.8.6. It should work on other versions, but reliability is guaranteed on Python 3.8.6.
 
 Some modules will need to be installed for this program to work. Run each command once to install the required modules.
 
@@ -31,7 +31,7 @@ This program has been properly tested to work with whole measurements, 1 to 20. 
 
 ## Debug
 
-Debug information can be accessed through the console by opening the debug version of the software found in the corrosponding folder, or by changing the extension from .pyw into .py.
+Debug information can be accessed through the console by opening the debug version of the software found in the corresponding folder, or by changing the extension from .pyw into .py.
 
 ## License
 © 2022 [Aconix](https://www.github.com/Aconix/) All Rights Reserved
