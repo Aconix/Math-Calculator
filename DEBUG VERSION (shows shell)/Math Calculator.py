@@ -238,7 +238,7 @@ def help_window():  # Help GUI
     # Labels for Circle GUI
     Label(help_w, text="Help", fg="Black", font="none 16 bold").grid(row=1, column=0, sticky=W)  # Main Heading
     Label(help_w,
-          text="To use this program, enter the required information into the boxes in mm.\n\nFor rectangle, "
+          text="To use this program, enter the required information into the boxes in mm.\n\nFor a rectangle, "
                "you need to enter the length and width of the shape.\nFor a square, you need to enter one of the "
                "sides of the shape.\nFor a circle, you need to enter the RADIUS of the circle, and not the "
                "diameter.\n\nIf the calculation is not working, you have entered characters that can't be calculated. "
@@ -272,7 +272,7 @@ window.protocol("WM_DELETE_WINDOW", close_script)  # References the close button
 
 # Create Labels
 Label(window, text="Math Calculator", fg="Black", font="none 20 bold").grid(row=1, column=0, sticky=W)
-Label(window, text="Click on one of the buttons to access a calculation", fg="Black", font="none 12").grid(row=2,
+Label(window, text="Click on one of the buttons to access a calculation.", fg="Black", font="none 12").grid(row=2,
                                                                                                            column=0,
                                                                                                            sticky=W)
 
