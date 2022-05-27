@@ -1,5 +1,5 @@
 # Math Calculator
-# v1.3.0
+# v1.4.0
 # Aconix (c) 2022
 
 from tkinter import *
@@ -90,8 +90,8 @@ def rectangle_window():  # Rectangle GUI
     # Labels for Rectangle GUI
     Label(rectangle_w, text="Rectangle Calculator", fg="Black", font="none 16 bold").grid(row=1, column=0,
                                                                                           sticky=W)  # Main Heading
-    Label(rectangle_w, text="Enter the required measurements & then click calculate to find the area of a rectangle.",
-          fg="Black", font="none 12").grid(row=2, column=0, sticky=W)  # Sub Heading
+    Label(rectangle_w, text="Enter the required measurements & then click\ncalculate to find the area of a rectangle.",
+          fg="Black", font="none 12", justify="left").grid(row=2, column=0, sticky=W)  # Sub Heading
 
     # Length Text Box & Label
     Label(rectangle_w, text="Length (mm)", fg="Black", font="none 12").grid(row=3, column=0, sticky=W)
@@ -147,8 +147,8 @@ def square_window():  # Square GUI
     # Labels for Rectangle GUI
     Label(square_w, text="Square Calculator", fg="Black", font="none 16 bold").grid(row=1, column=0,
                                                                                     sticky=W)  # Main Heading
-    Label(square_w, text="Enter the required measurements & then click calculate to find the area of a square.",
-          fg="Black", font="none 12").grid(row=2, column=0, sticky=W)  # Sub Heading
+    Label(square_w, text="Enter the required measurements & then click\ncalculate to find the area of a square.",
+          fg="Black", font="none 12", justify="left").grid(row=2, column=0, sticky=W)  # Sub Heading
 
     # Length Text Box & Label
     Label(square_w, text="Length (mm)", fg="Black", font="none 12").grid(row=3, column=0, sticky=W)
@@ -202,8 +202,8 @@ def circle_window():  # Circle GUI
     # Labels for Circle GUI
     Label(circle_w, text="Circle Calculator", fg="Black", font="none 16 bold").grid(row=1, column=0,
                                                                                     sticky=W)  # Main Heading
-    Label(circle_w, text="Enter the required measurements & then click calculate to find the area of a Circle.",
-          fg="Black", font="none 12").grid(row=2, column=0, sticky=W)  # Sub Heading
+    Label(circle_w, text="Enter the required measurements & then click\ncalculate to find the area of a Circle.",
+          fg="Black", font="none 12", justify="left").grid(row=2, column=0, sticky=W)  # Sub Heading
 
     # Length Text Box & Label
     Label(circle_w, text="Radius (mm)", fg="Black", font="none 12").grid(row=3, column=0, sticky=W)
@@ -243,7 +243,7 @@ def help_window():  # Help GUI
                "sides of the shape.\nFor a circle, you need to enter the RADIUS of the circle, and not the "
                "diameter.\n\nIf the calculation is not working, you have entered characters that can't be calculated. "
                "Ensure that you only place numbers into the calculation, and no letters or special characters.",
-          fg="Black", anchor='w', font="none 12", wraplength=400).grid(row=2, column=0, sticky=W)  # Sub Heading
+          fg="Black", anchor='w', font="none 12", wraplength=400, justify="left").grid(row=2, column=0, sticky=W)  # Sub Heading
 
     Label(help_w, text="Aconix (c) 2022", fg="Grey", anchor='w', font="none 8", wraplength=400).grid(row=3, column=0, sticky=W)  # Copyright
 
