@@ -12,7 +12,7 @@ version_number = '1.4.1'
 
 print("Math Calculator\nAconix (c) 2022\nGoing into the mainframe ;)")
 print("")
-print("This console shouldn't be seen to the user, but is used to debug the program is something goes wrong.")
+print("This console shouldn't be seen to the user, but is used to debug the program if something goes wrong.")
 print("=====================================================================================================")
 print("")
 print("Python Version Information (Program built on Python 3.8.6)")
