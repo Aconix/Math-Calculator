@@ -17,7 +17,7 @@ pip install numpy
 
 ## Usage
 
-Open the program by double clicking on “Math Calculator.pyw”. If that doesn’t work, launch “Math Calculator.py”. pyw launches the program without the terminal shell, while py does.
+Open the program by double-clicking on “Math Calculator.pyw”. If that does not work, launch “Math Calculator.py”. pyw launches the program without the terminal shell, while py does.
 
 To perform an area calculation, click on Rectangle, Square or Circle buttons respectively.
 
